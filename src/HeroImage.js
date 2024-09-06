@@ -17,13 +17,13 @@ export default function HeroImage() {
       setRandomMotto(headings[randomIndex]);
     }
 
-    updateHeading(); // Set initial heading
+    updateHeading();
 
-    const intervalId = setInterval(updateHeading, 5000); // Update heading every 5 seconds
+    const intervalId = setInterval(updateHeading, 5000);
 
     return function () {
       clearInterval(intervalId);
-    }; // Clean up interval on component unmount
+    };
   }, []);
 
   return (
