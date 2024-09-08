@@ -6,51 +6,80 @@ export default function GridCards() {
     <div className="row row-cols-1 row-cols-md-2 g-4">
       <div className="col">
         <div className="card">
-          <img src="..." className="card-img-top" alt="..." />
+          <div className="card-shade">
+            <img
+              src="/images/croissant.jpg"
+              className="card-img-top"
+              alt="Croissant"
+            />
+          </div>
+
           <div className="card-body">
-            <h5 className="card-title">Card title</h5>
+            <h5 className="card-title">Croissant</h5>
             <p className="card-text">
-              This is a longer card with supporting text below as a natural
-              lead-in to additional content. This content is a little bit
-              longer.
+              Flaky, buttery pastries with a delicate, layered texture. Ideal
+              for breakfast or a sophisticated snack, often enjoyed plain or
+              filled with chocolate or almond paste.
             </p>
           </div>
         </div>
       </div>
       <div className="col">
         <div className="card">
-          <img src="..." className="card-img-top" alt="..." />
+          <div className="card-shade">
+            <img
+              src="/images/doughnut.jpg"
+              className="card-img-top"
+              alt="Doughnut"
+            />
+          </div>
+
           <div className="card-body">
-            <h5 className="card-title">Card title</h5>
+            <h5 className="card-title">Doughnut</h5>
             <p className="card-text">
-              This is a longer card with supporting text below as a natural
-              lead-in to additional content. This content is a little bit
-              longer.
+              Fried or baked pastries with a light, fluffy interior. Often
+              glazed or topped with sugar, sprinkles, or fillings like jam or
+              cream.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div className="col">
+        <div className="card h-100">
+          <div className="card-shade">
+            <img
+              src="/images/sourdough.jpg"
+              className="card-img-top"
+              alt="Sourdough"
+            />
+          </div>
+
+          <div className="card-body">
+            <h5 className="card-title">Sourdough</h5>
+            <p className="card-text">
+              A tangy, artisanal bread made from naturally fermented dough.
+              Known for its chewy crust and distinctive sour flavor, perfect for
+              sandwiches or toasting.
             </p>
           </div>
         </div>
       </div>
       <div className="col">
         <div className="card">
-          <img src="..." className="card-img-top" alt="..." />
-          <div className="card-body">
-            <h5 className="card-title">Card title</h5>
-            <p className="card-text">
-              This is a longer card with supporting text below as a natural
-              lead-in to additional content.
-            </p>
+          <div className="card-shade">
+            <img
+              src="/images/cookies.jpg"
+              className="card-img-top"
+              alt="Cookies"
+            />
           </div>
-        </div>
-      </div>
-      <div className="col">
-        <div className="card">
-          <img src="..." className="card-img-top" alt="..." />
+
           <div className="card-body">
-            <h5 className="card-title">Card title</h5>
+            <h5 className="card-title">Cookies</h5>
             <p className="card-text">
-              This is a longer card with supporting text below as a natural
-              lead-in to additional content. This content is a little bit
-              longer.
+              Classic, sweet treats with a variety of flavors and textures.
+              Enjoy soft, chewy, or crispy versions with chocolate chips, nuts,
+              or dried fruits.
             </p>
           </div>
         </div>
