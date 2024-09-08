@@ -28,11 +28,6 @@ export default function HeroImage() {
 
   return (
     <div className="hero-container">
-      <img
-        src="/images/hero-wallpaper.jpg"
-        className="img-fluid"
-        alt="Wallpaper"
-      />
       <h1 className="hero-heading">{randomMotto}</h1>
     </div>
   );

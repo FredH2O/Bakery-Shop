@@ -1,5 +1,5 @@
 import "./App.css";
-import CaptionCarousel from "./CaptionCarousel";
+import GridCards from "./GridCards";
 import NavBar from "./NavBar";
 import HeroImage from "./HeroImage";
 
@@ -11,7 +11,7 @@ function App() {
         <HeroImage />
       </header>
       <main className="App-main">
-        <CaptionCarousel />
+        <GridCards />
       </main>
     </div>
   );
