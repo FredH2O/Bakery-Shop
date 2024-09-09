@@ -1,7 +1,7 @@
 import "./App.css";
-import GridCards from "./GridCards";
-import NavBar from "./NavBar";
-import HeroImage from "./HeroImage";
+import GridCards from "../GridCards/GridCards"; // Adjusted path
+import NavBar from "../NavBar/NavBar"; // Adjusted path
+import HeroImage from "../HeroImage/HeroImage"; // Adjusted path
 
 function App() {
   return (
