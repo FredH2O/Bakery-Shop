@@ -59,13 +59,13 @@ body {
 
 .card-shade::after {
   content: "Craving?! Order Now!";
-  display: flex; /* Use flexbox for centering */
-  align-items: center; /* Center text vertically */
-  justify-content: center; /* Center text horizontally */
+  display: flex;
+  align-items: center;
+  justify-content: center;
   color: white;
-  font-family: "Roboto", sans-serif; /* Customize font */
-  font-size: 1.5rem; /* Customize font size */
-  font-weight: 700; /* Customize font weight */
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
   color: white;
   position: absolute;
   top: 0;
@@ -81,7 +81,6 @@ body {
 .card:hover .card-shade::after {
   opacity: 1;
   transition: 1s;
-  transform: translateY(-10%);
 }
 
 @keyframes App-logo-spin {

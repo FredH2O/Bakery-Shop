@@ -1,0 +1,45 @@
+/* IconDetails.css */
+.grid {
+  background-color: white;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  justify-items: center;
+  align-items: center;
+}
+
+.icon-container {
+  margin: 10px;
+}
+
+.icon {
+  width: 10vw; /* Adjust based on your design */
+  height: 10vh; /* Adjust based on your design */
+}
+
+.text-center p {
+  margin: 0; /* Optional: remove default margin */
+  text-align: center; /* Center text below icons */
+}
+
+@media screen and (max-width: 1200px) {
+  .grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .icon-container {
+    margin: 1px;
+  }
+
+  .icon {
+    width: 20vw; /* Adjust based on your design */
+    height: 20vh; /* Adjust based on your design */
+  }
+}

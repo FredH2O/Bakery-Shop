@@ -1,6 +1,6 @@
 .hero-container {
   position: relative;
-  background-image: url("");
+  background-image: url("/public/images/hero-wallpaper.jpg");
   background-size: cover;
   background-position: center;
   height: 100vh;

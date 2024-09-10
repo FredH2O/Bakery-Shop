@@ -1,7 +1,8 @@
 import "./App.css";
-import GridCards from "../GridCards/GridCards"; // Adjusted path
-import NavBar from "../NavBar/NavBar"; // Adjusted path
-import HeroImage from "../HeroImage/HeroImage"; // Adjusted path
+import GridCards from "../GridCards/GridCards";
+import NavBar from "../NavBar/NavBar";
+import HeroImage from "../HeroImage/HeroImage";
+import IconDetails from "../IconDetails/IconDetails";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <HeroImage />
       </header>
       <main className="App-main">
+        <IconDetails />
         <GridCards />
       </main>
     </div>
