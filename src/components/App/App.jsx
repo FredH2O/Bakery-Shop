@@ -3,6 +3,7 @@ import GridCards from "../GridCards/GridCards";
 import NavBar from "../NavBar/NavBar";
 import HeroImage from "../HeroImage/HeroImage";
 import IconDetails from "../IconDetails/IconDetails";
+import Footer from "../Footer/Footer";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <IconDetails />
         <GridCards />
       </main>
+      <Footer />
     </div>
   );
 }
