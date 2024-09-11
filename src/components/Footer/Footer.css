@@ -1,9 +1,17 @@
-.container {
+.container-fluid {
   background-color: white;
+  padding: 1rem;
+  width: 100%;
 }
 
 .footer-links {
   display: block;
   margin-bottom: 0.5rem;
   text-decoration: none;
+}
+@media screen and (max-width: 430px) {
+  .col {
+    display: grid;
+    grid-template-columns: auto;
+  }
 }

@@ -3,37 +3,37 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 
 export default function Footer() {
   return (
-    <div className="container text-center">
+    <footer className="container-fluid text-center">
       <div className="row">
-        <div className="col">
+        <div className="col-12 col-md">
           <h3>Shop</h3>
 
           <a href="" className="footer-links">
-            <i class="bi bi-link"></i> Best-Sellers-Cake Favourite
+            <i class="bi bi-arrow-right-short"></i> Best-Sellers-Cake Favourite
           </a>
           <a href="" className="footer-links">
-            Birthday & Occasions
+            <i class="bi bi-arrow-right-short"></i>Birthday & Occasions
           </a>
           <a href="" className="footer-links">
-            Cakes,Treats & Bakes
+            <i class="bi bi-arrow-right-short"></i>Cakes,Treats & Bakes
           </a>
           <a href="" className="footer-links">
-            Halloween Cakes
+            <i class="bi bi-arrow-right-short"></i>Halloween Cakes
           </a>
           <a href="" className="footer-links">
-            Fresh Cream Cakes
+            <i class="bi bi-arrow-right-short"></i>Fresh Cream Cakes
           </a>
           <a href="" className="footer-links">
-            Christmas Cakes
+            <i class="bi bi-arrow-right-short"></i>Christmas Cakes
           </a>
           <a href="" className="footer-links">
-            Wedding & Baby
+            <i class="bi bi-arrow-right-short"></i>Wedding & Baby
           </a>
           <a href="" className="footer-links">
-            Specialty
+            <i class="bi bi-arrow-right-short"></i>Specialty
           </a>
         </div>
-        <div className="col">
+        <div className="col-12 col-md">
           <h3>Quick Links</h3>
           <a href="" className="footer-links">
             About Us
@@ -60,16 +60,17 @@ export default function Footer() {
             Send a Cake
           </a>
         </div>
-        <div className="col">
+        <div className="col-12 col-md">
           <h3>Contact us</h3>
           <h4>127 Moore St, Aughnacloy</h4>
           <p>Tel: 01444997 / 01477842</p>
-          <p>Mon - Fri, 8AM - 6PM</p>
+          <p>Monday - Friday</p>
+          <p>8:00 AM - 6:30 PM</p>
           <a href="" className="footer-links">
             VIEW MAP
           </a>
         </div>
       </div>
-    </div>
+    </footer>
   );
 }
