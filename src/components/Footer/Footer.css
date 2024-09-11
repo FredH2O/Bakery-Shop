@@ -2,16 +2,45 @@
   background-color: white;
   padding: 1rem;
   width: 100%;
+  border: 1px solid red;
 }
 
 .footer-links {
   display: block;
+  color: #000;
   margin-bottom: 0.5rem;
   text-decoration: none;
 }
-@media screen and (max-width: 430px) {
-  .col {
-    display: grid;
-    grid-template-columns: auto;
+
+.footer-links:hover {
+  color: chocolate;
+}
+
+.col-12,
+.col-12 p {
+  text-align: left;
+}
+
+.col-12 h3 {
+  padding: 10px;
+}
+.col-12 h4 {
+  font-weight: lighter;
+}
+
+.bi-caret-right-fill {
+  font-size: 0.7rem;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  color: chocolate;
+}
+
+@media (max-width: 768px) {
+  .row-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
   }
 }

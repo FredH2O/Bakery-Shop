@@ -4,70 +4,73 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 export default function Footer() {
   return (
     <footer className="container-fluid text-center">
-      <div className="row">
+      <div className="row row-footer">
         <div className="col-12 col-md">
           <h3>Shop</h3>
-
           <a href="" className="footer-links">
-            <i class="bi bi-arrow-right-short"></i> Best-Sellers-Cake Favourite
+            <i class="bi bi-caret-right-fill"></i> Best Seller Cakes
           </a>
           <a href="" className="footer-links">
-            <i class="bi bi-arrow-right-short"></i>Birthday & Occasions
+            <i class="bi bi-caret-right-fill"></i> Birthday & Occasions
           </a>
           <a href="" className="footer-links">
-            <i class="bi bi-arrow-right-short"></i>Cakes,Treats & Bakes
+            <i class="bi bi-caret-right-fill"></i> Cakes,Treats & Bakes
           </a>
           <a href="" className="footer-links">
-            <i class="bi bi-arrow-right-short"></i>Halloween Cakes
+            <i class="bi bi-caret-right-fill"></i> Halloween Cakes
           </a>
           <a href="" className="footer-links">
-            <i class="bi bi-arrow-right-short"></i>Fresh Cream Cakes
+            <i class="bi bi-caret-right-fill"></i> Fresh Cream Cakes
           </a>
           <a href="" className="footer-links">
-            <i class="bi bi-arrow-right-short"></i>Christmas Cakes
+            <i class="bi bi-caret-right-fill"></i> Christmas Cakes
           </a>
           <a href="" className="footer-links">
-            <i class="bi bi-arrow-right-short"></i>Wedding & Baby
+            <i class="bi bi-caret-right-fill"></i> Wedding & Baby
           </a>
           <a href="" className="footer-links">
-            <i class="bi bi-arrow-right-short"></i>Specialty
+            <i class="bi bi-caret-right-fill"></i> Specialty
           </a>
         </div>
         <div className="col-12 col-md">
           <h3>Quick Links</h3>
           <a href="" className="footer-links">
-            About Us
+            <i class="bi bi-caret-right-fill"></i> About Us
           </a>
           <a href="" className="footer-links">
-            Deliveries
+            <i class="bi bi-caret-right-fill"></i> Deliveries
           </a>
           <a href="" className="footer-links">
-            Catering
+            <i class="bi bi-caret-right-fill"></i> Catering
           </a>
           <a href="" className="footer-links">
-            FAQs
+            <i class="bi bi-caret-right-fill"></i> FAQs
           </a>
           <a href="" className="footer-links">
-            Allergens
+            <i class="bi bi-caret-right-fill"></i> Allergens
           </a>
           <a href="" className="footer-links">
-            Custom Orders
+            <i class="bi bi-caret-right-fill"></i> Custom Orders
           </a>
           <a href="" className="footer-links">
-            Policy
+            <i class="bi bi-caret-right-fill"></i> Policy
           </a>
           <a href="" className="footer-links">
-            Send a Cake
+            <i class="bi bi-caret-right-fill"></i> Send a Cake
           </a>
         </div>
-        <div className="col-12 col-md">
+        <div className="contact col-12 col-md">
           <h3>Contact us</h3>
-          <h4>127 Moore St, Aughnacloy</h4>
-          <p>Tel: 01444997 / 01477842</p>
+          <h4>Moore Street Branch</h4>
+          <p>
+            <b>Tel: </b> &#40;01&#41; 444 9973 / &#40;01&#41; 477 8422
+          </p>
+          <br />
+          <h5>Opening Hours</h5>
           <p>Monday - Friday</p>
           <p>8:00 AM - 6:30 PM</p>
           <a href="" className="footer-links">
-            VIEW MAP
+            <i class="bi bi-caret-right-fill"></i> VIEW MAP
           </a>
         </div>
       </div>
