@@ -13,6 +13,7 @@
 
 .footer-links:hover {
   color: chocolate;
+  transition: 0.3s ease-in;
 }
 
 .col-12,
