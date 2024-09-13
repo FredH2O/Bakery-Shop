@@ -4,6 +4,7 @@ import NavBar from "../NavBar/NavBar";
 import HeroImage from "../HeroImage/HeroImage";
 import IconDetails from "../IconDetails/IconDetails";
 import Footer from "../Footer/Footer";
+import ItemList from "../ItemCards/ItemLists";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <main className="App-main">
         <IconDetails />
         <GridCards />
+        <ItemList />
       </main>
       <Footer />
     </div>

@@ -1,0 +1,12 @@
+.item-cards {
+  height: 100%;
+}
+
+.item-cards img {
+  height: fit-content;
+}
+
+.btn {
+  background-color: mediumseagreen;
+  border: 1px solid gray;
+}
