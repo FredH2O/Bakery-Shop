@@ -5,6 +5,7 @@ import HeroImage from "../HeroImage/HeroImage";
 import IconDetails from "../IconDetails/IconDetails";
 import Footer from "../Footer/Footer";
 import ItemList from "../ItemCards/ItemLists";
+import ReviewCarousel from "../ReviewCarousel/ReviewCarousel";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <main className="App-main">
         <IconDetails />
         <GridCards />
+        <ReviewCarousel />
         <ItemList />
       </main>
       <Footer />
