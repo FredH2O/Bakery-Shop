@@ -1,0 +1,34 @@
+.card {
+  padding: 2px;
+  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+}
+
+.card-shade {
+  position: relative;
+}
+
+.card-shade::after {
+  content: "Craving?! Order Now!";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  transition: opacity 0.5s ease;
+  opacity: 0;
+  z-index: 1;
+}
+
+.card:hover .card-shade::after {
+  opacity: 1;
+  transition: 0.7s;
+}

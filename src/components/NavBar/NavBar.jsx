@@ -1,10 +1,11 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
+import "./NavBar.css";
 
 export default function NavBar() {
   return (
     <nav className="navbar navbar-expand-lg bg-body-tertiary">
-      <div className="container-fluid">
+      <div className="container-fluid navbar-color">
         <a className="navbar-brand" href="home">
           Bakery
         </a>
