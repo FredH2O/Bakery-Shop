@@ -3,7 +3,13 @@
 }
 
 .item-cards img {
-  height: fit-content;
+  height: 50%;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 
 .btn {
