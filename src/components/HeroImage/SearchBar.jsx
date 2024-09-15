@@ -1,3 +1,6 @@
+import "./SearchBar.css";
+import React from "react";
+
 export default function SearchBar() {
   return (
     <form className="mt-4 d-flex search-form">
@@ -7,7 +10,7 @@ export default function SearchBar() {
         placeholder="Search..."
       />
       <button type="submit" className="btn btn-primary">
-        Search
+        <i class="bi bi-search"></i>
       </button>
     </form>
   );

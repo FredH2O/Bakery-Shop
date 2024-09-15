@@ -29,8 +29,8 @@ export default function HeroImage() {
 
   return (
     <>
-      <SearchBar />
-      <div className="hero-container">
+      <div className="hero-container hero-search">
+        <SearchBar />
         <h1 className="hero-heading">{randomMotto}</h1>
       </div>
     </>

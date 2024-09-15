@@ -1,0 +1,8 @@
+.search-form {
+  top: 0;
+}
+
+.hero-search {
+  display: flex;
+  flex-direction: column;
+}
