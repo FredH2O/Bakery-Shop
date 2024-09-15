@@ -10,8 +10,8 @@ import ReviewCarousel from "../ReviewCarousel/ReviewCarousel";
 function App() {
   return (
     <div className="App">
+      <NavBar />
       <header className="App-header">
-        <NavBar />
         <HeroImage />
       </header>
       <main className="App-main">
