@@ -68,7 +68,7 @@ const itemList = [
 
 export default function ItemList() {
   return (
-    <div className="container">
+    <div className="container container-icons">
       <div className="row">
         {itemList.map((item, index) => (
           <div className="col-md-4 mb-4" key={index}>

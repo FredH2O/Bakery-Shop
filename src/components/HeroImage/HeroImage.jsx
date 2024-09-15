@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./HeroImage.css";
+import SearchBar from "./SearchBar";
 
 const headings = [
   "Baked to perfection...",
@@ -27,8 +28,11 @@ export default function HeroImage() {
   }, []);
 
   return (
-    <div className="hero-container">
-      <h1 className="hero-heading">{randomMotto}</h1>
-    </div>
+    <>
+      <SearchBar />
+      <div className="hero-container">
+        <h1 className="hero-heading">{randomMotto}</h1>
+      </div>
+    </>
   );
 }

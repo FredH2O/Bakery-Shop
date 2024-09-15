@@ -45,6 +45,12 @@ export default function NavBar() {
                 Contact Us
               </a>
             </li>
+            <li className="nav-item">
+              <button type="button" class="btn btn-primary">
+                <i class="bi bi-cart4"></i>
+                <span class="badge text-bg-secondary">4</span>
+              </button>
+            </li>
           </ul>
         </div>
       </div>

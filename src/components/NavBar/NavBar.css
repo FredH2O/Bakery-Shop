@@ -9,6 +9,19 @@
   border-radius: 10px;
 }
 
+.navbar {
+  margin: 0;
+  padding: 0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  border-bottom: 1px solid black;
+}
+
+.nav-item {
+  margin: 0 10px 0 10px;
+}
+
 .navbar-color,
 .navbar {
   background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
