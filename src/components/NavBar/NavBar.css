@@ -1,28 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&display=swap");
+
 .custom-navbar-style {
   justify-content: right;
 }
 
+.logo {
+  width: 100px;
+  padding: 0;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  margin: auto;
+}
+
+nav h4 {
+  font-family: "Playwrite CU", cursive;
+  font-weight: lighter;
+}
+
 .nav-link:hover {
-  text-decoration: underline;
-  background-color: antiquewhite;
-  transition: 0.5s ease;
-  border-radius: 10px;
+  text-decoration: underline 1px wheat;
+  color: #49534f !important;
+}
+
+.faBars {
+  color: white;
+  border-color: aliceblue;
 }
 
 .navbar {
-  margin: 0;
-  padding: 0;
   position: sticky;
   top: 0;
   z-index: 1000;
   border-bottom: 1px solid black;
+  background-color: #3a2618;
 }
 
 .nav-item {
   margin: 0 10px 0 10px;
 }
 
-.navbar-color,
-.navbar {
-  background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+.cart-btn {
+  background-color: #9a8873;
+}
+
+.badge {
+  background-color: rgb(255, 77, 77) !important;
+  margin-left: 10px;
+}
+
+.cart-btn:hover {
+  background-color: #754043 !important;
+  border: 1px solid white;
+  transition: 0.3s ease-in;
+  color: black;
+}
+
+.navbar-brand,
+.nav-link {
+  color: antiquewhite !important;
+}
+
+@media screen and (max-width: 450px) {
+  .logo {
+    width: 5em;
+    left: 0;
+  }
 }

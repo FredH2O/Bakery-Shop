@@ -12,6 +12,7 @@
 body {
   font-family: "Roboto", sans-serif;
   font-style: normal;
+  background-color: #37423d;
 }
 
 h1,
@@ -20,15 +21,6 @@ h3,
 h4,
 h5 {
   font-weight: bolder;
-}
-
-.App-header {
-  background-color: #282c34;
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
 }
 
 .App-main {

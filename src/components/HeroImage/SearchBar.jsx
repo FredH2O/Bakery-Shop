@@ -6,7 +6,7 @@ export default function SearchBar() {
     <form className="mt-4 d-flex search-form">
       <input
         type="search"
-        className="form-control me-2"
+        className="form-control me-2 input-btn"
         placeholder="Search..."
       />
       <button type="submit" className="btn btn-primary">

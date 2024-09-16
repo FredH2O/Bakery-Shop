@@ -1,5 +1,12 @@
 .search-form {
+  position: absolute;
   top: 0;
+  display: flex;
+  align-items: center;
+}
+
+.input-btn {
+  margin-right: 0 !important;
 }
 
 .hero-search {

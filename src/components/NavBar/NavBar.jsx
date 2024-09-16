@@ -1,13 +1,19 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./NavBar.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBars } from "@fortawesome/free-solid-svg-icons";
+import { faCartShopping } from "@fortawesome/free-solid-svg-icons";
 
 export default function NavBar() {
   return (
-    <nav className="navbar navbar-expand-lg bg-body-tertiary">
+    <nav className="navbar navbar-expand-lg">
       <div className="container-fluid navbar-color">
         <a className="navbar-brand" href="home">
-          Bakery
+          <div className="logo-container">
+            <img src="/images/logo.png" alt="Pence's Logo" className="logo" />
+            <h4 className="logo-name">Pence's Bakery</h4>
+          </div>
         </a>
         <button
           className="navbar-toggler"
@@ -18,7 +24,7 @@ export default function NavBar() {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span className="navbar-toggler-icon"></span>
+          <FontAwesomeIcon icon={faBars} className="faBars" />
         </button>
         <div
           className="custom-navbar-style collapse navbar-collapse"
@@ -46,9 +52,9 @@ export default function NavBar() {
               </a>
             </li>
             <li className="nav-item">
-              <button type="button" class="btn btn-primary">
-                <i class="bi bi-cart4"></i>
-                <span class="badge text-bg-secondary">4</span>
+              <button type="button" class="btn btn-primary cart-btn">
+                <FontAwesomeIcon icon={faCartShopping} />
+                <span class="badge text-bg-secondary"> 4 </span>
               </button>
             </li>
           </ul>

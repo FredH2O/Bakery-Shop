@@ -1,6 +1,7 @@
 /* IconDetails.css */
 .grid {
-  background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+  background-color: #754043;
+  color: #171614;
   width: 100%;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
