@@ -5,6 +5,20 @@
   align-items: center;
 }
 
+.search-form button {
+  background-color: burlywood;
+  color: black;
+}
+
+.search-form button:hover {
+  background-color: grey;
+  border: 1px solid black;
+}
+
+.search-form input {
+  border: 1px solid black;
+}
+
 .input-btn {
   margin-right: 0 !important;
 }

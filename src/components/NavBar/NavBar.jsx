@@ -52,9 +52,9 @@ export default function NavBar() {
               </a>
             </li>
             <li className="nav-item">
-              <button type="button" class="btn btn-primary cart-btn">
+              <button type="button" className="btn btn-primary cart-btn">
                 <FontAwesomeIcon icon={faCartShopping} />
-                <span class="badge text-bg-secondary"> 4 </span>
+                <span className="badge text-bg-secondary"> 4 </span>
               </button>
             </li>
           </ul>
