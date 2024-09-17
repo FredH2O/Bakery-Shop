@@ -1,3 +1,4 @@
+import { useState } from "react";
 import "./App.css";
 import GridCards from "../GridCards/GridCards";
 import NavBar from "../NavBar/NavBar";
@@ -8,9 +9,16 @@ import ItemList from "../ItemCards/ItemLists";
 import ReviewCarousel from "../ReviewCarousel/ReviewCarousel";
 
 function App() {
+  const [cartItems, setCartItems] = useState([]);
+
+  const addedToCart = (item) => {
+    console.log("Adding to cart:", item);
+    setCartItems((prev) => [...prev, item]);
+  };
+
   return (
     <div className="App">
-      <NavBar />
+      <NavBar cartItemCount={cartItems.length} />
       <header className="App-header">
         <HeroImage />
       </header>
@@ -18,7 +26,7 @@ function App() {
         <IconDetails />
         <GridCards />
         <ReviewCarousel />
-        <ItemList />
+        <ItemList onAddToCart={addedToCart} />
       </main>
       <Footer />
     </div>

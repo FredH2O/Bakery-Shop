@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./HeroImage.css";
-import SearchBar from "./SearchBar";
 import "animate.css";
 
 const headings = [
@@ -40,7 +39,6 @@ export default function HeroImage() {
   return (
     <>
       <div className="hero-container hero-search">
-        <SearchBar />
         <h1 className="hero-heading animate__animated animate__pulse animate__slower animate__infinite">
           {randomMotto}
         </h1>

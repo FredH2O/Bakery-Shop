@@ -14,15 +14,11 @@
 .hero-container h1 {
   font-family: "Lobster", sans-serif;
   font-weight: lighter;
-  font-size: 6rem;
+  font-size: 5rem;
+  word-break: keep-all;
   text-shadow: 3px 2px 1px rgb(255, 89, 0);
-}
-
-.hero-heading {
+  color: antiquewhite;
   z-index: 2;
-  color: white;
-  text-align: center;
-  font-size: 3rem;
 }
 
 .hero-container::after {
@@ -46,8 +42,10 @@
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 425px) {
   .hero-heading {
     font-size: 1.5rem;
+    font-size: 15rem;
+    word-break: keep-all;
   }
 }

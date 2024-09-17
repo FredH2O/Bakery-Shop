@@ -5,15 +5,13 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { faCartShopping } from "@fortawesome/free-solid-svg-icons";
 
-export default function NavBar() {
+export default function NavBar({ cartItemCount }) {
   return (
     <nav className="navbar navbar-expand-lg">
       <div className="container-fluid navbar-color">
+        <img src="/images/logo.png" alt="Pence's Logo" className="logo" />
         <a className="navbar-brand" href="home">
-          <div className="logo-container">
-            <img src="/images/logo.png" alt="Pence's Logo" className="logo" />
-            <h4 className="logo-name">Pence's Bakery</h4>
-          </div>
+          <p className="logo-name"> Pence's Bakery </p>
         </a>
         <button
           className="navbar-toggler"
@@ -53,8 +51,8 @@ export default function NavBar() {
             </li>
             <li className="nav-item">
               <button type="button" className="btn btn-primary cart-btn">
-                <FontAwesomeIcon icon={faCartShopping} />
-                <span className="badge text-bg-secondary"> 4 </span>
+                <FontAwesomeIcon icon={faCartShopping} /> Cart
+                <span className="badge text-bg-secondary">{cartItemCount}</span>
               </button>
             </li>
           </ul>
