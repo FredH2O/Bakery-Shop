@@ -1,6 +1,7 @@
 import "./ItemCards.css";
 
 function ItemCards({ img, alt, title, text, price, onAddToCart, ...props }) {
+  //console.log('onAddToCart prop:', onAddToCart);
   return (
     <div className="card item-cards" style={{ width: "18rem" }} {...props}>
       <img src={img} className="card-img-top" alt={alt} />

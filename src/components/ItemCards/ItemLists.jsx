@@ -1,7 +1,8 @@
+import React from "react";
 import ItemCards from "./ItemCards";
 import { itemList } from "./Items";
 
-export default function ItemList({ category, onAddToCart }) {
+function ItemList({ category, onAddToCart }) {
   const selectedItems = itemList[category] || [];
 
   return (
@@ -23,3 +24,5 @@ export default function ItemList({ category, onAddToCart }) {
     </div>
   );
 }
+
+export default ItemList;

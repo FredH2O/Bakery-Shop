@@ -1,9 +1,4 @@
-import { useState } from "react";
-import ItemList from "../ItemCards/ItemLists";
-import { itemList } from "../ItemCards/Items";
-
-export default function Categories() {
-  const [category, setCategory] = useState("cakes");
+function Categories({ setCategory }) {
   return (
     <>
       <p className="d-inline-flex gap-1">
@@ -11,9 +6,9 @@ export default function Categories() {
           className="btn btn-primary"
           type="button"
           data-bs-toggle="collapse"
-          data-bs-target="#collapseExample"
+          data-bs-target="#collapse-cakes"
           aria-expanded="false"
-          aria-controls="collapseExample"
+          aria-controls="collapse-cakes"
           onClick={() => setCategory("cakes")}
         >
           Cakes
@@ -22,19 +17,38 @@ export default function Categories() {
           className="btn btn-primary"
           type="button"
           data-bs-toggle="collapse"
-          data-bs-target="#collapseExample"
+          data-bs-target="#collapse-pastries"
           aria-expanded="false"
-          aria-controls="collapseExample"
+          aria-controls="collapse-pastries"
           onClick={() => setCategory("pastries")}
         >
           Pastries
         </button>
+        <button
+          className="btn btn-primary"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#collapse-cookies"
+          aria-expanded="false"
+          aria-controls="collapse-cookies"
+          onClick={() => setCategory("cookies")}
+        >
+          Cookies
+        </button>
+        <button
+          className="btn btn-primary"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#collapse-doughnuts"
+          aria-expanded="false"
+          aria-controls="collapse-doughnuts"
+          onClick={() => setCategory("doughnuts")}
+        >
+          Doughnuts
+        </button>
       </p>
-      <div className="collapse" id="collapseExample">
-        <div className="card card-body">
-          <ItemList category={category} />
-        </div>
-      </div>
     </>
   );
 }
+
+export default Categories;

@@ -146,5 +146,12 @@ export const itemList = {
       text: "A luxurious chocolate gateau, perfect for a sophisticated wedding celebration.",
       price: "€250",
     },
+    {
+      img: "/images/cake1.png",
+      alt: "Cake",
+      title: "Black Gateu Wedding Cake",
+      text: "A luxurious chocolate gateau, perfect for a sophisticated wedding celebration.",
+      price: "€250",
+    },
   ],
 };
