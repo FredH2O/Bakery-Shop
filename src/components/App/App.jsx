@@ -7,6 +7,7 @@ import IconDetails from "../IconDetails/IconDetails";
 import Footer from "../Footer/Footer";
 import ItemList from "../ItemCards/ItemLists";
 import ReviewCarousel from "../ReviewCarousel/ReviewCarousel";
+import Categories from "../Categories/Categories";
 
 function App() {
   const [cartItems, setCartItems] = useState([]);
@@ -26,6 +27,7 @@ function App() {
         <IconDetails />
         <GridCards />
         <ReviewCarousel />
+        <Categories />
         <ItemList onAddToCart={addedToCart} />
       </main>
       <Footer />
