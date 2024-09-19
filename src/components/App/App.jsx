@@ -8,6 +8,7 @@ import Footer from "../Footer/Footer";
 import ItemList from "../ItemCards/ItemLists";
 import ReviewCarousel from "../ReviewCarousel/ReviewCarousel";
 import Categories from "../Categories/Categories";
+import Modal from "../Modal/Modal";
 
 function App() {
   const [cartItems, setCartItems] = useState([]);
@@ -20,6 +21,7 @@ function App() {
 
   return (
     <div className="App">
+      <Modal />
       <NavBar cartItemCount={cartItems.length} />
       <header className="App-header">
         <HeroImage />

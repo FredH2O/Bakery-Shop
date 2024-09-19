@@ -55,12 +55,11 @@ export default function NavBar({ cartItemCount }) {
                 type="button"
                 className="btn btn-primary cart-btn"
                 data-bs-toggle="modal"
-                data-bs-target="#staticBackdrop"
+                data-bs-target="#cartBtn"
               >
                 <FontAwesomeIcon icon={faCartShopping} /> Cart
                 <span className="badge text-bg-secondary">{cartItemCount}</span>
               </button>
-              <Modal />
             </li>
           </ul>
         </div>

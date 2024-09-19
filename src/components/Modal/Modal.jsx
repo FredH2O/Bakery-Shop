@@ -1,21 +1,11 @@
-import "bootstrap/dist/css/bootstrap.min.css"; // Bootstrap CSS
-import "bootstrap/dist/js/bootstrap.bundle.min.js"; // Bootstrap JS (includes Popper.js)
+import React from "react";
 
 export default function Modal() {
   return (
     <>
-      <button
-        type="button"
-        className="btn btn-primary"
-        data-bs-toggle="modal"
-        data-bs-target="#exampleModal"
-      >
-        Launch demo modal
-      </button>
-
       <div
         className="modal fade"
-        id="exampleModal"
+        id="cartBtn"
         tabIndex="-1"
         aria-labelledby="exampleModalLabel"
         aria-hidden="true"
