@@ -4,6 +4,7 @@ import "./NavBar.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { faCartShopping } from "@fortawesome/free-solid-svg-icons";
+import Modal from "../Modal/Modal";
 
 export default function NavBar({ cartItemCount }) {
   return (
@@ -50,10 +51,16 @@ export default function NavBar({ cartItemCount }) {
               </a>
             </li>
             <li className="nav-item">
-              <button type="button" className="btn btn-primary cart-btn">
+              <button
+                type="button"
+                className="btn btn-primary cart-btn"
+                data-bs-toggle="modal"
+                data-bs-target="#staticBackdrop"
+              >
                 <FontAwesomeIcon icon={faCartShopping} /> Cart
                 <span className="badge text-bg-secondary">{cartItemCount}</span>
               </button>
+              <Modal />
             </li>
           </ul>
         </div>

@@ -11,7 +11,7 @@ function ItemCards({ img, alt, title, text, price, onAddToCart, ...props }) {
         <p className={price.classes}>{price.value}</p>
         <button
           className="btn btn-primary buy-btn"
-          onClick={() => onAddToCart({ img, title, price })}
+          onClick={() => onAddToCart({ title, price })}
         >
           Add to Cart
         </button>
