@@ -21,7 +21,7 @@ function App() {
 
   return (
     <div className="App">
-      <Modal />
+      <Modal cartItems={cartItems} />
       <NavBar cartItemCount={cartItems.length} />
       <header className="App-header">
         <HeroImage />

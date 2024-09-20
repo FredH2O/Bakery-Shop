@@ -4,7 +4,6 @@ import "./NavBar.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { faCartShopping } from "@fortawesome/free-solid-svg-icons";
-import Modal from "../Modal/Modal";
 
 export default function NavBar({ cartItemCount }) {
   return (

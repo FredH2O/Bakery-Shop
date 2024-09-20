@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Modal() {
+export default function Modal({ cartItems }) {
   return (
     <>
       <div
@@ -14,7 +14,7 @@ export default function Modal() {
           <div className="modal-content">
             <div className="modal-header">
               <h1 className="modal-title fs-5" id="exampleModalLabel">
-                Modal title
+                Cart:
               </h1>
               <button
                 type="button"
@@ -23,17 +23,29 @@ export default function Modal() {
                 aria-label="Close"
               ></button>
             </div>
-            <div className="modal-body">Message Message Message</div>
+            <div className="modal-body">
+              {cartItems.length > 0 ? (
+                <ul>
+                  {cartItems.map((item, index) => (
+                    <li key={index}>
+                      {item.title} - {item.price}
+                    </li>
+                  ))}
+                </ul>
+              ) : (
+                <p> Cart is empty. </p>
+              )}
+            </div>
             <div className="modal-footer">
               <button
                 type="button"
                 className="btn btn-secondary"
                 data-bs-dismiss="modal"
               >
-                Close
+                Continue Shopping
               </button>
               <button type="button" className="btn btn-primary">
-                Save changes
+                Proceed to Payment
               </button>
             </div>
           </div>
