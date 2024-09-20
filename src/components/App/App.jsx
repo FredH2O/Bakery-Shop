@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import "./App.css";
 import GridCards from "../GridCards/GridCards";
 import NavBar from "../NavBar/NavBar";
@@ -13,16 +13,28 @@ import Modal from "../Modal/Modal";
 function App() {
   const [cartItems, setCartItems] = useState([]);
   const [category, setCategory] = useState("cakes");
+  const [triggerAnimation, setAnimation] = useState(false);
 
   const addedToCart = (item) => {
-    console.log("Adding to cart:", item);
+    // console.log("Adding to cart:", item);
     setCartItems((prev) => [...prev, item]);
+    setAnimation(true);
   };
+
+  useEffect(() => {
+    if (setAnimation) {
+      const timer = setTimeout(() => setAnimation(false), 200);
+      return () => clearTimeout(timer);
+    }
+  }, [triggerAnimation]);
 
   return (
     <div className="App">
       <Modal cartItems={cartItems} />
-      <NavBar cartItemCount={cartItems.length} />
+      <NavBar
+        cartItemCount={cartItems.length}
+        triggerAnimation={triggerAnimation}
+      />
       <header className="App-header">
         <HeroImage />
       </header>

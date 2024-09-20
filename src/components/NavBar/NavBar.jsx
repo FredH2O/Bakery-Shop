@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { faCartShopping } from "@fortawesome/free-solid-svg-icons";
 
-export default function NavBar({ cartItemCount }) {
+export default function NavBar({ cartItemCount, triggerAnimation }) {
   return (
     <nav className="navbar navbar-expand-lg">
       <div className="container-fluid navbar-color">
@@ -52,7 +52,13 @@ export default function NavBar({ cartItemCount }) {
             <li className="nav-item">
               <button
                 type="button"
-                className="btn btn-primary cart-btn"
+                className={`btn btn-primary cart-btn 
+                  ${
+                    triggerAnimation
+                      ? "animate__animated animate__bounceIn"
+                      : ""
+                  }
+                  `}
                 data-bs-toggle="modal"
                 data-bs-target="#cartBtn"
               >
