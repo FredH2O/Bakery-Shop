@@ -33,3 +33,16 @@ h5 {
 .row {
   margin: 2% 10% 2% 10%;
 }
+
+.shop-catalogue {
+  margin-bottom: 2rem;
+  padding: 2rem;
+  background-color: rgb(228, 210, 156);
+  width: fit-content;
+}
+
+.pattern-diagonal-lines-xl {
+  color: rgb(199, 87, 87);
+  background-color: #d7a8a8;
+  width: 100%;
+}

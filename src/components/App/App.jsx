@@ -23,7 +23,7 @@ function App() {
 
   useEffect(() => {
     if (setAnimation) {
-      const timer = setTimeout(() => setAnimation(false), 200);
+      const timer = setTimeout(() => setAnimation(false), 800);
       return () => clearTimeout(timer);
     }
   }, [triggerAnimation]);
@@ -42,9 +42,9 @@ function App() {
         <IconDetails />
         <GridCards />
         <ReviewCarousel />
-        <Categories setCategory={setCategory} />
-        <div className="collapse" id={`collapse-${category}`}>
-          <div className="card card-body">
+        <div className="shop-catalogue pattern-diagonal-lines-xl">
+          <Categories setCategory={setCategory} />
+          <div className="collapse" id={`collapse-${category}`}>
             <ItemList category={category} onAddToCart={addedToCart} />
           </div>
         </div>
