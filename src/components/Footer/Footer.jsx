@@ -55,6 +55,11 @@ export default function Footer() {
           <OpeningHours />
         </div>
       </div>
+      <p>
+        <i class="bi bi-code"></i>
+        FredH2O
+        <i class="bi bi-code-slash"></i>
+      </p>
     </footer>
   );
 }

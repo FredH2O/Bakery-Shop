@@ -13,7 +13,6 @@ export default function Modal({ cartItems }) {
     return acc;
   }, []);
 
-  // Calculate grand total
   const grandTotal = groupedItems.reduce(
     (total, item) => total + item.totalPrice,
     0
@@ -42,17 +41,22 @@ export default function Modal({ cartItems }) {
               ></button>
             </div>
             <div className="modal-body">
-              {cartItems.length > 0 ? (
+              {groupedItems.length > 0 ? (
                 <>
-                  {cartItems.map((item, index) => (
+                  {groupedItems.map((item, index) => (
                     <div key={index} className="item-row">
-                      <span className="item-title">{item.title}</span>
-                      <span>{item.price}</span>
+                      <span className="item-title">
+                        {item.title} x{item.quantity}
+                      </span>
+                      <span>€{item.totalPrice.toFixed(2)}</span>
                     </div>
                   ))}
+                  <div className="total">
+                    <strong>Total: €{grandTotal.toFixed(2)}</strong>
+                  </div>
                 </>
               ) : (
-                <p> Cart is empty. </p>
+                <p>Cart is empty.</p>
               )}
             </div>
             <div className="modal-footer">

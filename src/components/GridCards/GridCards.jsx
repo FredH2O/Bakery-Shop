@@ -7,13 +7,15 @@ export default function GridCards() {
     <div className="row row-cols-1 row-cols-md-2 g-4">
       <div className="col">
         <div className="card">
-          <div className="card-shade">
-            <img
-              src="/images/croissant.jpg"
-              className="card-img-top"
-              alt="Croissant"
-            />
-          </div>
+          <a href="#shop-catalogue">
+            <div className="card-shade">
+              <img
+                src="/images/croissant.jpg"
+                className="card-img-top"
+                alt="Croissant"
+              />
+            </div>
+          </a>
 
           <div className="card-body">
             <h5 className="card-title">Croissant</h5>
@@ -27,13 +29,15 @@ export default function GridCards() {
       </div>
       <div className="col">
         <div className="card">
-          <div className="card-shade">
-            <img
-              src="/images/doughnut.jpg"
-              className="card-img-top"
-              alt="Doughnut"
-            />
-          </div>
+          <a href="#shop-catalogue">
+            <div className="card-shade">
+              <img
+                src="/images/doughnut.jpg"
+                className="card-img-top"
+                alt="Doughnut"
+              />
+            </div>
+          </a>
 
           <div className="card-body">
             <h5 className="card-title">Doughnut</h5>
@@ -47,13 +51,15 @@ export default function GridCards() {
       </div>
       <div className="col">
         <div className="card h-100">
-          <div className="card-shade">
-            <img
-              src="/images/sourdough.jpg"
-              className="card-img-top"
-              alt="Sourdough"
-            />
-          </div>
+          <a href="#shop-catalogue">
+            <div className="card-shade">
+              <img
+                src="/images/sourdough.jpg"
+                className="card-img-top"
+                alt="Sourdough"
+              />
+            </div>
+          </a>
 
           <div className="card-body">
             <h5 className="card-title">Sourdough</h5>
@@ -67,13 +73,15 @@ export default function GridCards() {
       </div>
       <div className="col">
         <div className="card">
-          <div className="card-shade">
-            <img
-              src="/images/cookies.jpg"
-              className="card-img-top"
-              alt="Cookies"
-            />
-          </div>
+          <a href="#shop-catalogue">
+            <div className="card-shade">
+              <img
+                src="/images/cookies.jpg"
+                className="card-img-top"
+                alt="Cookies"
+              />
+            </div>
+          </a>
 
           <div className="card-body">
             <h5 className="card-title">Cookies</h5>
