@@ -1,8 +1,8 @@
 import "./Categories.css";
 
-function Categories({ setCategory }) {
+function Categories({ setCategory, id, ...props }) {
   return (
-    <div className="categories">
+    <div className="categories" id={id}>
       <h2>
         Shop <span>&</span> Catalogue
       </h2>

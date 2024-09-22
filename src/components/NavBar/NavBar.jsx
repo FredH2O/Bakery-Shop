@@ -40,8 +40,8 @@ export default function NavBar({ cartItemCount, triggerAnimation }) {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="home">
-                Pricing
+              <a className="nav-link" href="#shop-catalogue">
+                Shop
               </a>
             </li>
             <li className="nav-item">

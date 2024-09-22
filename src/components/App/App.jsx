@@ -43,7 +43,7 @@ function App() {
         <GridCards />
         <ReviewCarousel />
         <div className="shop-catalogue pattern-diagonal-lines-xl">
-          <Categories setCategory={setCategory} />
+          <Categories setCategory={setCategory} id="shop-catalogue" />
           <div className="collapse" id={`collapse-${category}`}>
             <ItemList category={category} onAddToCart={addedToCart} />
           </div>

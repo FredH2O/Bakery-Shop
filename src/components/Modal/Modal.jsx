@@ -1,6 +1,24 @@
 import React from "react";
+import "./Modal.css";
 
 export default function Modal({ cartItems }) {
+  const groupedItems = cartItems.reduce((acc, item) => {
+    const existingItem = acc.find((i) => i.title === item.title);
+    if (existingItem) {
+      existingItem.quantity += 1;
+      existingItem.totalPrice += item.price;
+    } else {
+      acc.push({ ...item, quantity: 1, totalPrice: item.price });
+    }
+    return acc;
+  }, []);
+
+  // Calculate grand total
+  const grandTotal = groupedItems.reduce(
+    (total, item) => total + item.totalPrice,
+    0
+  );
+
   return (
     <>
       <div
@@ -10,7 +28,7 @@ export default function Modal({ cartItems }) {
         aria-labelledby="exampleModalLabel"
         aria-hidden="true"
       >
-        <div className="modal-dialog modal-box">
+        <div className="modal-dialog modal-dialog-centered modal-dialog-scrollable">
           <div className="modal-content">
             <div className="modal-header">
               <h1 className="modal-title fs-5" id="exampleModalLabel">
@@ -25,13 +43,14 @@ export default function Modal({ cartItems }) {
             </div>
             <div className="modal-body">
               {cartItems.length > 0 ? (
-                <ul>
+                <>
                   {cartItems.map((item, index) => (
-                    <li key={index}>
-                      {item.title} - {item.price}
-                    </li>
+                    <div key={index} className="item-row">
+                      <span className="item-title">{item.title}</span>
+                      <span>{item.price}</span>
+                    </div>
                   ))}
-                </ul>
+                </>
               ) : (
                 <p> Cart is empty. </p>
               )}
