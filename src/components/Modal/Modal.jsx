@@ -46,12 +46,14 @@ export default function Modal({ cartItems }) {
                   {groupedItems.map((item, index) => (
                     <div key={index} className="item-row">
                       <span className="item-title">
-                        {item.title} x{item.quantity}
+                        {item.title} x {item.quantity}
                       </span>
-                      <span>€{item.totalPrice.toFixed(2)}</span>
+                      <span className="total-price">
+                        €{item.totalPrice.toFixed(2)}
+                      </span>
                     </div>
                   ))}
-                  <div className="total">
+                  <div className="grand-total">
                     <strong>Total: €{grandTotal.toFixed(2)}</strong>
                   </div>
                 </>

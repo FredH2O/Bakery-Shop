@@ -9,3 +9,26 @@
   font-style: italic;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
+.modal-header,
+.modal-body,
+.modal-footer {
+  background-color: rgb(255, 246, 246);
+  color: rgb(0, 0, 0);
+  border: 1px solid rgb(65, 62, 62);
+  text-shadow: 1px 1px 1px rgb(233, 226, 226);
+}
+
+.modal {
+  font-size: 1rem;
+  text-align: left;
+}
+
+.total-price {
+  text-align: center;
+}
+
+.grand-total {
+  font-size: 1.5rem;
+  text-align: right;
+  border-top: 1px solid black;
+}
