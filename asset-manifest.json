@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Bakery-Shop/static/css/main.226e3919.css",
+    "main.js": "/Bakery-Shop/static/js/main.f2d78a76.js",
+    "static/js/453.621fab40.chunk.js": "/Bakery-Shop/static/js/453.621fab40.chunk.js",
+    "static/media/hero-wallpaper.jpg": "/Bakery-Shop/static/media/hero-wallpaper.7655e80aa1dfd91d934a.jpg",
+    "static/media/bootstrap-icons.woff?": "/Bakery-Shop/static/media/bootstrap-icons.39795c0b4513de014cf8.woff",
+    "static/media/bootstrap-icons.woff2?": "/Bakery-Shop/static/media/bootstrap-icons.b7bcc075b395c14ce8c2.woff2",
+    "static/media/certificate.svg": "/Bakery-Shop/static/media/certificate.34d19ecd0d268700422529a8eac5b74b.svg",
+    "static/media/delivery.svg": "/Bakery-Shop/static/media/delivery.02cc145501de31840578b93ca300cd69.svg",
+    "static/media/calendar.svg": "/Bakery-Shop/static/media/calendar.86b0412f1764f9423622d9ae8f411d4e.svg",
+    "static/media/award.svg": "/Bakery-Shop/static/media/award.b92d9448311a47f06e6c105deed500bf.svg",
+    "index.html": "/Bakery-Shop/index.html",
+    "main.226e3919.css.map": "/Bakery-Shop/static/css/main.226e3919.css.map",
+    "main.f2d78a76.js.map": "/Bakery-Shop/static/js/main.f2d78a76.js.map",
+    "453.621fab40.chunk.js.map": "/Bakery-Shop/static/js/453.621fab40.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.226e3919.css",
+    "static/js/main.f2d78a76.js"
+  ]
+}
