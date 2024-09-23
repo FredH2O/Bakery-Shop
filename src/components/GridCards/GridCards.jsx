@@ -10,7 +10,7 @@ export default function GridCards() {
           <a href="#shop-catalogue">
             <div className="card-shade">
               <img
-                src="/images/croissant.jpg"
+                src="images/croissant.jpg"
                 className="card-img-top"
                 alt="Croissant"
               />
@@ -32,7 +32,7 @@ export default function GridCards() {
           <a href="#shop-catalogue">
             <div className="card-shade">
               <img
-                src="/images/doughnut.jpg"
+                src="images/doughnut.jpg"
                 className="card-img-top"
                 alt="Doughnut"
               />
@@ -54,7 +54,7 @@ export default function GridCards() {
           <a href="#shop-catalogue">
             <div className="card-shade">
               <img
-                src="/images/sourdough.jpg"
+                src="images/sourdough.jpg"
                 className="card-img-top"
                 alt="Sourdough"
               />
@@ -76,7 +76,7 @@ export default function GridCards() {
           <a href="#shop-catalogue">
             <div className="card-shade">
               <img
-                src="/images/cookies.jpg"
+                src="images/cookies.jpg"
                 className="card-img-top"
                 alt="Cookies"
               />

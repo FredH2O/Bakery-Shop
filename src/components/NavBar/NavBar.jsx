@@ -9,9 +9,9 @@ export default function NavBar({ cartItemCount, triggerAnimation }) {
   return (
     <nav className="navbar navbar-expand-lg">
       <div className="container-fluid navbar-color">
-        <img src="images/logo.png" alt="Pence's Logo" className="logo" />
+        <img src="images/Logo.png" alt="Pence's Logo" className="logo" />
         <a className="navbar-brand" href="home">
-          <p className="logo-name"> Pence's Bakery </p>
+          <p className="logo-name"> Pence's Bakery</p>
         </a>
         <button
           className="navbar-toggler"
