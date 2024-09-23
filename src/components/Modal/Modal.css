@@ -12,9 +12,9 @@
 .modal-header,
 .modal-body,
 .modal-footer {
-  background-color: rgb(255, 246, 246);
+  background-color: rgb(233, 226, 226);
   color: rgb(0, 0, 0);
-  border: 1px solid rgb(65, 62, 62);
+  border: 1px solid rgb(233, 226, 226);
   text-shadow: 1px 1px 1px rgb(233, 226, 226);
 }
 

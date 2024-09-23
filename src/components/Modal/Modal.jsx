@@ -54,7 +54,9 @@ export default function Modal({ cartItems }) {
                     </div>
                   ))}
                   <div className="grand-total">
-                    <strong>Total: €{grandTotal.toFixed(2)}</strong>
+                    <strong>
+                      <span>Total:</span> €{grandTotal.toFixed(2)}
+                    </strong>
                   </div>
                 </>
               ) : (
