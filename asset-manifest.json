@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Bakery-Shop/static/css/main.226e3919.css",
+    "main.css": "/Bakery-Shop/static/css/main.f83fb972.css",
     "main.js": "/Bakery-Shop/static/js/main.32da385d.js",
     "static/js/453.621fab40.chunk.js": "/Bakery-Shop/static/js/453.621fab40.chunk.js",
     "static/media/hero-wallpaper.jpg": "/Bakery-Shop/static/media/hero-wallpaper.7655e80aa1dfd91d934a.jpg",
@@ -11,12 +11,12 @@
     "static/media/calendar.svg": "/Bakery-Shop/static/media/calendar.86b0412f1764f9423622d9ae8f411d4e.svg",
     "static/media/award.svg": "/Bakery-Shop/static/media/award.b92d9448311a47f06e6c105deed500bf.svg",
     "index.html": "/Bakery-Shop/index.html",
-    "main.226e3919.css.map": "/Bakery-Shop/static/css/main.226e3919.css.map",
+    "main.f83fb972.css.map": "/Bakery-Shop/static/css/main.f83fb972.css.map",
     "main.32da385d.js.map": "/Bakery-Shop/static/js/main.32da385d.js.map",
     "453.621fab40.chunk.js.map": "/Bakery-Shop/static/js/453.621fab40.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.226e3919.css",
+    "static/css/main.f83fb972.css",
     "static/js/main.32da385d.js"
   ]
 }
